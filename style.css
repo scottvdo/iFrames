@@ -1,0 +1,85 @@
+* {
+  margin:  0 auto;
+  width: 90%;
+  background-color: #FF69B4;
+  text-align: center;
+}
+
+/* Text Styling*/
+
+h1 {
+
+  font-family: matt-b,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  padding-top: 30px;
+
+}
+
+h2 {
+
+  font-family: marydale,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 50px;
+  padding-bottom:  20px;
+
+}
+
+
+/* iFrame Containers */
+
+.container1 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Youtube's Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.container2 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Youtube's Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.container3 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Youtube's Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.container4 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Youtube's Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.container5 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Youtube's Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Making the iframe responsive to screen size*/
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Making the text responsive to screen size */
+@media (max-width: 900px) {
+  body{
+    margin: 34px;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+
+}
